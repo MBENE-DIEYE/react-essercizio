@@ -44,7 +44,7 @@ const App = () => {
         </div>
         <button type="submit">Resistrati</button>
       </form>
-       <Title email ={form.email} password ={form.password}/>
+       <Title email = {form.email} password = {form.password}/>
     </>
   )
 }
