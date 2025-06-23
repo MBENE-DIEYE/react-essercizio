@@ -2,6 +2,7 @@ import { useState } from "react"
 import Title from "./components/Title"
 
 const App = () => {
+  
 
   const [form, setForm] = useState({
     email: "",
@@ -43,7 +44,7 @@ const App = () => {
         </div>
         <button type="submit">Resistrati</button>
       </form>
-         <Title email ={form.email} password ={form.password}/>
+       <Title email ={form.email} password ={form.password}/>
     </>
   )
 }

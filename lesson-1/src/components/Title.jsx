@@ -2,8 +2,8 @@ const Title = ({email,password}) => {
 
     return(
         <>
-        <p>{email}</p>
-        <p>{password}</p>
+        <p>Email: {email}</p>
+        <p>Password: {password}</p>
         </>
     )
 }
