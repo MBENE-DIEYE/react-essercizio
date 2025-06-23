@@ -3,8 +3,17 @@ const  App = () => {
 
   return (
     <>
-     <h1>il mio titolo</h1>
-     <p>Lorem ipsum dolor sit.</p>
+     
+     <form >
+      <div>
+        <label htmlFor="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="inserisci tuo email" />
+      </div>
+      <div>
+        <label htmlFor="password">Email</label>
+      <input type="password" id="password" name="password" placeholder="inserisci tuo password" />
+      </div>
+     </form>
     </>
   )
 }
